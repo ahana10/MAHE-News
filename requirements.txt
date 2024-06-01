@@ -2,4 +2,4 @@ streamlit==1.10.0
 pandas==1.4.2
 googlenews==1.6.5  # Assuming this is the correct package for GoogleNews
 image==1.5.33     # Assuming this is the correct package for Image
-webbrowser
+web-browser
