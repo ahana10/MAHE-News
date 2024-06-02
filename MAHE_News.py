@@ -73,7 +73,7 @@ def page3():
             #st.write(df["Link"][i],unsafe_allow_html=True)
             #st.markdown(f'<a href="{df["Link"][i]}" target="_blank">Read more</a>', unsafe_allow_html=True)
             if st.button(f"Open Article{count}"):
-                webbrowser.open_new_tab(link)
+                st.markdown(f'<a href="https://{link}" </a>', unsafe_allow_html=True)
             
 # Combine pages using Streamlit's sidebar for navigation
 def main():
