@@ -3,7 +3,6 @@ pandas
 GoogleNews
 image   
 web-browser
-streamlit.components.v1
 time
 datetime
 
