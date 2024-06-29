@@ -1,8 +1,9 @@
 streamlit 
 pandas
-googlenews
+GoogleNews
 image   
 web-browser
-PIL
 streamlit.components.v1
 time
+datetime
+
