@@ -346,10 +346,10 @@ def page3():
             st.write(df["Date"][i])
             st.write(df["Title"][i])
             link=df["Link"][i]
-            #st.write(df["Link"][i],unsafe_allow_html=True)
-            #st.markdown(f'<a href="{df["Link"][i]}" target="_blank">Read more</a>', unsafe_allow_html=True)
-            # if st.button(f"Open Article{count}"):
-            #   webbrowser.open_new_tab(link) 
+            st.write(df["Link"][i],unsafe_allow_html=True)
+            st.markdown(f'<a href="{df["Link"][i]}" target="_blank">Read more</a>', unsafe_allow_html=True)
+             if st.button(f"Open Article{count}"):
+               webbrowser.open_new_tab(link) 
             button_key = f"button_{count}"
 
             if st.button(f"Open Article {count}", key=button_key):
